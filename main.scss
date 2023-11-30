@@ -1,0 +1,20 @@
+@import "sass/abstract/variabili";
+@import "sass/abstract/dimensioni";
+@import "sass/abstract/color";
+@import "sass/abstract/spaziature";
+@import "sass/Bootstrap/bootstrap.scss";
+
+.logoPersone{
+    @include icone;
+}
+
+main{
+    background-color: $Viola;
+}
+#contenitoreGrande{
+   padding: $paddingGenerico;
+}
+
+#immagineGrande{
+    height: $altezzaImmagineGrande;
+}
